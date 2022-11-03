@@ -1,5 +1,5 @@
 {
-  "name": "expobarcodescannerdemo",
+  "name": "tokenscanner",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -10,13 +10,24 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~44.0.0",
-    "expo-barcode-scanner": "~11.2.0",
-    "expo-status-bar": "~1.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "@expo/vector-icons": "^13.0.0",
+    "@react-navigation/drawer": "^6.5.0",
+    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/stack": "^6.3.3",
+    "axios": "^1.1.3",
+    "expo": "^46.0.16",
+    "expo-barcode-scanner": "~11.4.0",
+    "expo-constants": "^13.2.4",
+    "expo-secure-store": "~11.3.0",
+    "expo-status-bar": "~1.4.0",
+    "formik": "^2.2.9",
+    "moment": "^2.29.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-native": "^0.69.6",
+    "react-native-reanimated": "2.9.1",
+    "react-native-web": "^0.18.9",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
